@@ -124,7 +124,7 @@ const Index = () => {
                   <div className="absolute -top-4 -right-4 w-16 h-16 bg-court rounded-full opacity-20"></div>
                   <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-sand rounded-full opacity-30"></div>
                   <img 
-                    src="/lovable-uploads/1.png"
+                    src={`${import.meta.env.BASE_URL}lovable-uploads/1.png`}
                     alt={isArabic ? "ملعب بادل" : "Padel court"} 
                     className="rounded-lg shadow-lg w-full h-80 object-cover"
                   />
@@ -136,7 +136,7 @@ const Index = () => {
                   <div className="absolute -top-4 -left-4 w-16 h-16 bg-desert rounded-full opacity-30"></div>
                   <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-teal rounded-full opacity-20"></div>
                   <img 
-                    src="/lovable-uploads/2.png"
+                    src={`${import.meta.env.BASE_URL}lovable-uploads/2.png`}
                     alt={isArabic ? "منطقة الشرق الأوسط وشمال إفريقيا" : "MENA region"} 
                     className="rounded-lg shadow-lg w-full h-80 object-cover"
                   />

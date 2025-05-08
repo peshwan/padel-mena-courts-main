@@ -40,7 +40,7 @@ const Hero = () => {
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-desert rounded-full animate-bounce-slow" style={{ animationDelay: '1s' }}></div>
               <div className="bg-white p-4 rounded-2xl shadow-xl transform rotate-3">
                 <img 
-                  src="/lovable-uploads/high-angle-palette-balls-field (1).png"
+                  src={`${import.meta.env.BASE_URL}lovable-uploads/high-angle-palette-balls-field (1).png`}
                   alt={isArabic ? "ملعب بادل" : "Padel court"} 
                   className="rounded-lg object-cover w-full h-80"
                 />
