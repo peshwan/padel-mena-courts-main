@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             {/* Replace SVG with Image Tag */}
-            <img src="/Logo.png" alt="MENA Padel Logo" className="h-10 w-auto" /> {/* Adjust h-10 (height) as needed */}
+            <img src={`${import.meta.env.BASE_URL}Logo.png`} alt="MENA Padel Logo" className="h-10 w-auto" /> {/* Adjust h-10 (height) as needed */}
             {/* The span with text might be redundant if the logo image contains the text, or adjust as needed */}
             <span className="text-xl bg-gradient-to-r from-teal to-court bg-clip-text font-bold text-gray-700 hidden sm:inline"> {/* Optionally hide text on very small screens if logo is enough */}
               {isArabic ? "دليل ملاعب بادل في الشرق الاوسط وشمال افريقيا" : "Directory of Padel Courts in MENA"}
