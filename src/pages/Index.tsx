@@ -46,9 +46,9 @@ const Index = () => {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row justify-between items-center mb-10">
               <div>
-                <h2 className="text-3xl font-bold mb-2">
+                <h3 className="text-3xl font-bold mb-2">
                   {isArabic ? "ملاعب مختارة من دول مختلفة" : "Handpicked Courts from MENA"}
-                </h2>
+                </h3>
                 <p className="text-muted-foreground">
                   {isArabic ? "اكتشف ملاعب مميزة اخترناها لك من مختلف أنحاء المنطقة." : "Explore our selection of standout courts from across the region."}
                 </p>
@@ -101,9 +101,12 @@ const Index = () => {
             {activeTab === "about" ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div>
-                  <h2 className="text-3xl font-bold mb-4">
-                    {isArabic ? "ما هو البادل؟" : "What is Padel?"}
+                  <h2 className="text-4xl font-extrabold mb-6 text-center">
+                    {isArabic ? "لماذا البادل؟" : "Why Padel?"}
                   </h2>
+                  <h3 className="text-3xl font-bold mb-4">
+                    {isArabic ? "ما هو البادل؟" : "What is Padel?"}
+                  </h3>
                   <p className="text-lg mb-4">
                     {isArabic 
                       ? "البادل هي رياضة مضرب تجمع بين عناصر التنس والاسكواش. تُلعب في أزواج على ملعب مغلق بحجم يعادل تقريباً ثلث ملعب التنس."
@@ -142,9 +145,9 @@ const Index = () => {
                   />
                 </div>
                 <div className="order-1 md:order-2">
-                  <h2 className="text-3xl font-bold mb-4">
+                  <h3 className="text-3xl font-bold mb-4">
                     {isArabic ? "البادل في الشرق الأوسط وشمال إفريقيا" : "Padel in MENA"}
-                  </h2>
+                  </h3>
                   <p className="text-lg mb-4">
                     {isArabic 
                       ? "شهدت رياضة البادل نمواً متسارعاً في منطقة الشرق الأوسط وشمال إفريقيا في السنوات الأخيرة، مع ريادة دول مثل الإمارات العربية المتحدة والمملكة العربية السعودية."
@@ -209,9 +212,9 @@ const Index = () => {
         {/* CTA Section */}
         <section className="py-16 bg-court text-white">
           <div className="container-custom text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">
               {isArabic ? "هل أنت مستعد للعب البادل؟" : "Ready to Play Padel?"}
-            </h2>
+            </h3>
             <p className="text-lg mb-8 max-w-2xl mx-auto">
               {isArabic 
                 ? "ابحث عن الملعب المثالي بالقرب منك وابدأ الاستمتاع بأسرع الرياضات نمواً في الشرق الأوسط وشمال إفريقيا."
