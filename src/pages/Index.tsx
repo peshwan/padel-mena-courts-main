@@ -77,6 +77,9 @@ const Index = () => {
         {/* Why Padel Section */}
         <section className="py-16 bg-white">
           <div className="container-custom">
+            <h2 className="text-4xl font-extrabold mb-10 text-center">
+              {isArabic ? "لماذا البادل؟" : "Why Padel?"}
+            </h2>
             <div className="flex justify-center mb-8">
               <div className="inline-flex bg-gray-100 p-1 rounded-lg">
                 <button
@@ -101,9 +104,6 @@ const Index = () => {
             {activeTab === "about" ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div>
-                  <h2 className="text-4xl font-extrabold mb-6 text-center">
-                    {isArabic ? "لماذا البادل؟" : "Why Padel?"}
-                  </h2>
                   <h3 className="text-3xl font-bold mb-4">
                     {isArabic ? "ما هو البادل؟" : "What is Padel?"}
                   </h3>
