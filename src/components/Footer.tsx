@@ -69,7 +69,7 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li className="text-gray-300">
-                <span className="font-medium">Email:</span> Oliverr1988@gmail.com
+                <span className="font-medium">Email:</span> contact@padelcourts.club
               </li>
               
             </ul>
